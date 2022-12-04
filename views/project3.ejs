@@ -1,0 +1,26 @@
+<html>
+<title>Info about medicines</title>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>searchbar</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<form action="" class="search-bar" >
+<select ONCHANGE="loaction=this.options[this.selectedIndex].value;">
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value;">
+	<option value=" ">select...</option>
+	<option value="C:\Users\Chinnu\Desktop\fullstack\views\stomachpain1.ejs">stomachpain</option>
+	
+	</select>
+		<script>
+			function temp(src){
+				window.location=src;
+			}
+		</script>
+<button type="submit"></button>
+</form>
+</div>
+</body>
+</html>
